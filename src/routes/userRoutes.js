@@ -7,6 +7,6 @@ router.get("/user/:telegramId", getUser);
 router.post("/tap", tap);
 router.post("/start", startGame);
 router.get('/',(req,res)=>{
-    console.log(res.send("hello world"))
+ res.send("hello world")
 })
 module.exports = router;
