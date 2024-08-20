@@ -2,8 +2,8 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const userRoutes = require("../Tap-mini-bac/src/routes/userRoutes");
-const connectDB = require("../Tap-mini-bac/src/config/db");
+const userRoutes = require("./src/routes/userRoutes");
+const connectDB = require("./src/config/db");
 require("dotenv").config();
 
 
