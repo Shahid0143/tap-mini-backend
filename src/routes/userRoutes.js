@@ -6,5 +6,7 @@ const router = express.Router();
 router.get("/user/:telegramId", getUser);
 router.post("/tap", tap);
 router.post("/start", startGame);
-
+router.get('/',(req,res)=>{
+    console.log(res.json("hello world"));
+})
 module.exports = router;
